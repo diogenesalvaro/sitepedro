@@ -367,7 +367,7 @@ const Footer = () => {
               Nossa missão é democratizar o acesso ao estudo de alta qualidade, ajudando milhares de brasileiros a alcançarem a estabilidade financeira através do concurso público.
             </p>
             <div className="flex gap-6">
-              <a href="#" className="relative group text-zinc-400 hover:text-brand-yellow transition-all">
+              <a href="https://www.instagram.com/vade.concursos/" target="_blank" rel="noopener noreferrer" className="relative group text-zinc-400 hover:text-brand-yellow transition-all">
                 <div className="absolute inset-0 bg-brand-yellow/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
                 <Instagram size={24} className="relative z-10 drop-shadow-[0_0_8px_rgba(242,201,76,0.3)]" />
               </a>
