@@ -103,10 +103,10 @@ const Hero = () => {
     <section id="inicio" className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-brand-black text-white">
       {/* Geometric Pattern Background */}
       <div className="absolute inset-0 opacity-[0.07]" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l25.98 15v30L30 60 4.02 45V15z' fill-rule='evenodd' stroke='%23f2c94c' stroke-width='1' fill='none'/%3E%3C/svg%3E")`, backgroundSize: '60px 60px' }} />
-      
+
       {/* Vignette Effect */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(0,0,0,0.8)_100%)] pointer-events-none" />
-      
+
       <div className="absolute top-0 right-0 w-1/2 h-full bg-brand-yellow/5 skew-x-12 transform translate-x-1/4" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -223,7 +223,7 @@ const Features = () => {
     <section className="py-24 bg-[#121212] relative overflow-hidden">
       {/* Subtle Hexagonal Pattern Background */}
       <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l25.98 15v30L30 60 4.02 45V15z' fill-rule='evenodd' stroke='%23f2c94c' stroke-width='1' fill='none'/%3E%3C/svg%3E")`, backgroundSize: '60px 60px' }} />
-      
+
       {/* Watermark Logo */}
       <div className="absolute -right-20 -bottom-20 opacity-[0.02] pointer-events-none">
         <img src={LOGO_URL} alt="" className="w-[600px] rotate-12" referrerPolicy="no-referrer" />
@@ -371,7 +371,7 @@ const Footer = () => {
                 <div className="absolute inset-0 bg-brand-yellow/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
                 <Instagram size={24} className="relative z-10 drop-shadow-[0_0_8px_rgba(242,201,76,0.3)]" />
               </a>
-              <a href="#" className="relative group text-zinc-400 hover:text-brand-yellow transition-all">
+              <a href="https://www.youtube.com/@vadeconcursos" target="_blank" rel="noopener noreferrer" className="relative group text-zinc-400 hover:text-brand-yellow transition-all">
                 <div className="absolute inset-0 bg-brand-yellow/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
                 <Youtube size={24} className="relative z-10 drop-shadow-[0_0_8px_rgba(242,201,76,0.3)]" />
               </a>
@@ -402,7 +402,7 @@ const Footer = () => {
                 <span className="text-brand-yellow font-bold">WhatsApp:</span> (11) 99999-9999
               </li>
               <li className="flex items-center gap-3">
-                <span className="text-brand-yellow font-bold">Endereço:</span> Av. Paulista, 1000 - SP
+                <span className="text-brand-yellow font-bold">Endereço:</span> Pau dos ferro, 1000 - RN
               </li>
             </ul>
           </div>
