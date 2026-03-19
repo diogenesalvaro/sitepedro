@@ -119,7 +119,7 @@ const Hero = () => {
             <div className="inline-flex items-center gap-2 bg-brand-yellow/10 border border-brand-yellow/30 rounded-full px-4 py-1 mb-6 relative group cursor-default">
               <div className="absolute inset-0 bg-brand-yellow/20 blur-md rounded-full opacity-50 group-hover:opacity-100 transition-opacity" />
               <ShieldCheck className="text-brand-yellow relative z-10 drop-shadow-[0_0_5px_rgba(242,201,76,0.6)]" size={18} fill="rgba(242, 201, 76, 0.2)" />
-              <span className="text-brand-yellow text-sm font-semibold uppercase tracking-wider relative z-10">Aprovação Garantida</span>
+              <span className="text-brand-yellow text-sm font-semibold uppercase tracking-wider relative z-10">APROVAÇÃO GARANTIDA</span>
             </div>
             <h1 className="text-5xl lg:text-7xl font-black leading-tight mb-6">
               ESTUDE O QUE <br />
