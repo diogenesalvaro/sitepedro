@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-yellow: #F2C94C;
+  --color-brand-black: #1A1A1A;
+  --color-brand-white: #FFFFFF;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-white text-brand-black antialiased;
+  }
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg;
+}
+
+.btn-primary {
+  @apply bg-brand-yellow text-brand-black font-bold py-3 px-8 rounded-lg hover:bg-yellow-400 transition-all transform hover:scale-105 active:scale-95 shadow-md;
+}
+
+.btn-secondary {
+  @apply bg-brand-black text-brand-white font-bold py-3 px-8 rounded-lg hover:bg-zinc-800 transition-all transform hover:scale-105 active:scale-95 shadow-md;
+}
